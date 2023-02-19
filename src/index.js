@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Assets/bootstrap.min-litera.css';
 // import './Assets/bootstrap.min-cyborg.css';
 // import './Assets/bootstrap.min-morph.css';

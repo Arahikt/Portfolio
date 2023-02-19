@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import UnderConstruction from "../components/UnderConstruction";
 
 const Research = () => {
   return (
-    <div>Research</div>
-  )
-}
+  <UnderConstruction />
+  );
+};
 
 export default Research;

@@ -1,9 +1,10 @@
 import React from 'react'
+import UnderConstruction from '../components/UnderConstruction';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <UnderConstruction />
+  );
+};
 
 export default Contact;

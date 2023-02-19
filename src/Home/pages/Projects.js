@@ -1,9 +1,10 @@
 import React from 'react'
+import UnderConstruction from '../components/UnderConstruction'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
-  )
-}
+    <UnderConstruction />
+  );
+};
 
 export default Projects;
