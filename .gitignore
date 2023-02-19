@@ -22,3 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+src/Assets/bootstrap.min-lux.css
+src/Assets/bootstrap.min-morph.css
+src/Assets/bootstrap.min-cyborg.css

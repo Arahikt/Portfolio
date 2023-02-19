@@ -1,6 +1,17 @@
-.App {
+/* .App {
+  font-family: sans-serif;
+  min-height: 80vh;
   text-align: center;
 }
+footer {
+  position: fixed;
+  background-color: gray;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +46,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  /* background-color: gray; */
+  text-align: center;
+  /* font-family: sans-serif;
+  font-size: small; 
+  color:red; */
+  align-items: baseline;
+  margin-top: auto;
+  padding: 8px;
 }
