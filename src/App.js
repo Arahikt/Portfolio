@@ -12,6 +12,7 @@ import Projects from "./Home/pages/Projects";
 import Contact from "./Home/pages/Contact";
 import Footer from "./shared/UIElement/Footer";
 import Header from "./shared/UIElement/Header";
+import Research from "./Home/pages/Research";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/research" element={<Research />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
