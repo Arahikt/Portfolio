@@ -1,5 +1,7 @@
 .contact-page {
   padding: 60px;
+  /* to move image to left -> */
+  text-align: justify;
 }
 .contact-header {
   font-size: 30px;
@@ -22,7 +24,7 @@
 }
 .form-button {
   background-color: #ffffff;
-  color: #000;
+
   float: right;
   padding: 10px 30px;
   margin-top: 15px;

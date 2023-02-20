@@ -25,3 +25,5 @@ yarn-error.log*
 src/Assets/bootstrap.min-lux.css
 src/Assets/bootstrap.min-morph.css
 src/Assets/bootstrap.min-cyborg.css
+.env
+server.js
