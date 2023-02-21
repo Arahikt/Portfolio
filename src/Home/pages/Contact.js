@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import backgroundContact from "../../Assets/Images/mail-delivery.png";
 import { Container, Row, Col } from "react-bootstrap";
-import "./Contact.css";
-
+import { SocialIcon } from "react-social-icons";
 import { ToastContainer, toast } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.min.css";
+import "./Contact.css";
 
 const Contact = (props) => {
   const formInitial = {
@@ -85,9 +86,14 @@ const Contact = (props) => {
                   <Col size={12} sm={6} className="px-1">
                     <input type="email" placeholder="Email" value={state.email} name="email" onChange={handleChange} />                  
                   </Col>
-                  <Col size={12} className="px-1">
+                  <Col size={12} sm={12} className="px-1">
                     <textarea rows="6" placeholder="Message" value={state.message} name="message" onChange={handleChange}></textarea>
-
+                  </Col> 
+                  <Col size={12} sm={6} className="px-2 py-2">
+                    <SocialIcon url="https://www.linkedin.com/in/arahik-torosian/" />{" "}
+                    <SocialIcon url="https://github.com/Arahikt/" />{" "}
+                  </Col>
+                  <Col size={12} sm={6} className="px-1">
                     <button disabled={(state.firstName && state.lastName && state.email && state.phone && state.message )=== ""  } className="form-button" type="submit"><span>{buttonText}</span></button>
                   </Col>
                 </Row>
