@@ -39,7 +39,6 @@ const Home = () => {
 
     if (isDeleting) {
       setDelta((prevDelta) => prevDelta / 2);
-      // updatedText=("")
     }
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);

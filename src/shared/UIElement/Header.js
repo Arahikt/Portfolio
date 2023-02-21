@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -19,6 +20,9 @@ const Header = () => {
               <Nav.Link href="/contact">CONTACT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <Nav.Link href="/contact">
+          <Button>Let's Connect</Button>
+          </Nav.Link>
         </Container>
       </Navbar>
     </header>
