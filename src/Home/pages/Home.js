@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useNavigate } from "react-router-dom";
-import userImage from "../../Assets/Images/user-image.jpg";
+import userImage from "../../Assets/Images/DSC_0528.jpg";
 
 import "./Home.css";
 const Home = () => {
@@ -45,8 +45,6 @@ const Home = () => {
       setIsDeleting(true);
       //seting delta to normall pace
       setDelta(period);
-    } else if (isDeleting && updatedText.length > 1) {
-      setText("asdadasdasd .");
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNumber(loopNumber + 1);
@@ -60,51 +58,58 @@ const Home = () => {
     navigate(path);
   };
   return (
-    //prettier-ignore
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="header-home">Welcome to my Portfolio</span>
             <h1>{`Hi I'm Arahik Torosian `}</h1>
-            <h2><span className="wrap"> {text}</span></h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione dolorem debitis, autem commodi illum qui dignissimos voluptatem magni repudiandae nesciunt nobis, sapiente cumque quam repellendus odio adipisci. Ex, repellat est.</p>
-          <Button variant="secondary" onClick={handleConnect}>Let's Connect <ArrowRightCircle size={25} /></Button>
-         </Col>
-         <Col xs={12} md={6} xl={5}>
-         <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            width={"160px"}
-            src={userImage}
-          />
+            <h2>
+              <span className="wrap">~ {text} ~</span>
+            </h2>
+            <p>
+              I recently graduated with a Master of Science in Software
+              Engineering From the California State University of Northridge.
+              (Dec 2022) I am passionate about designing and developing software
+              independently or in collaboration with a team. I am passionate
+              about developing functional and appealing applications that meet
+              customers' expectations.
+            </p>
+            <p>
+              {" "}
+              I love to work on new ideas and improve existing ones. So that is
+              what I do!{" "}
+            </p>
+            <p>
+              Under the guidance of Dr. Nahapetian, I worked on a research
+              project entitled "barometer sensing for mobile applications,"
+              which evaluates barometric readings based on a cellphone's air
+              pressure/barometer sensor. I could forecast height, determine
+              floor change, detect crossing vehicles, determine interactions,
+              and monitor steps using a barometer sensor. I developed the app
+              utilizing the Android studio platform and Java.{" "}
+            </p>
+            <p>
+              I currently work as a part of a freelancer team to develop a web
+              application specifically designed for a retail store in Sherman
+              Oaks, CA. It is an internal-use web-based management system for
+              handling business activities. it includes inventory management,
+              customer management, orders, appointments, and other sections.
+            </p>
+            <Button variant="secondary" onClick={handleConnect}>
+              Let's Connect <ArrowRightCircle size={25} />
+            </Button>
+          </Col>
+          <Col xs={12} md={6} xl={5}>
+            <img
+              className="home-user-image"
+              alt="user"
+              width={"360px"}
+              src={userImage}
+            />
           </Col>
         </Row>
       </Container>
-      {/* <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            width={"160px"}
-            src={userImage}
-          />
-        </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-            Hi, I'm Reed.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
-          </p>
-          
-        </div>
-     
-      </div> */}
     </section>
   );
 };
