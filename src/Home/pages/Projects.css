@@ -8,13 +8,15 @@
 } */
 
 .project-card {
-  width: 18rem;
+  /* commented for mobile view -> */
+  /* width: 18rem; */
   min-height: 45rem;
   max-height: 51rem;
+  margin-bottom: 2px;
 
 }
 .card-botton {
-  margin: 0px auto 20px auto;
+  margin: 0px auto 25px auto;
 }
 .card-botton svg {
   font-size: 25px;
