@@ -1,11 +1,12 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React,  { useState, useEffect } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useNavigate } from "react-router-dom";
+
 import userImage from "../../Assets/Images/DSC_0528.jpg";
 
 import "./Home.css";
+
 const Home = () => {
   const [loopNumber, setLoopNumber] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
