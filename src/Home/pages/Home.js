@@ -96,7 +96,7 @@ const Home = () => {
               handling business activities. it includes inventory management,
               customer management, orders, appointments, and other sections.
             </p>
-            <Button variant="secondary" onClick={handleConnect}>
+            <Button variant="primary" onClick={handleConnect}>
               Let's Connect <ArrowRightCircle size={25} />
             </Button>
           </Col>

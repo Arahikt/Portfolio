@@ -71,6 +71,7 @@ const Contact = (props) => {
           <Col size={12} md={6}>
             <div>
               <h2 className="contact-header">Contact Us</h2>
+              <p className="contact-reminder">If you would like a copy of my résumé, kindly submit a request. Please enter "Resume" in the message area.</p>
               <form onSubmit={submitHandler}>
                 <Row>
                   <Col size={12} sm={6} className="px-1">

@@ -42,3 +42,14 @@
 .contact-page form textarea:focus {
   background: rgb(177, 198, 204);
 }
+.contact-reminder{
+  font: 0.7em sans-serif;
+  font-style: italic;
+  /* margin-bottom: 25px; */
+}
+@media (max-width: 768px) {
+  .contact-page img {
+    width: 100%;
+    opacity: 0.6;
+  }
+}
