@@ -1,0 +1,18 @@
+.project {
+  margin-top: 40px;
+}
+/* for actual image -> */
+/* .projects-card-image {
+  width: parent;
+  height: 180px;
+} */
+
+.project-card {
+  width: 18rem;
+  min-height: 45rem;
+  max-height: 51rem;
+
+}
+.card-botton {
+  margin: 0px auto 20px auto;
+}
