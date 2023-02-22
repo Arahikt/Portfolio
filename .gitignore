@@ -28,3 +28,4 @@ src/Assets/bootstrap.min-cyborg.css
 .env
 server.js
 src/Assets/Images/DSC_0528.jpg
+NodeMailer.js
