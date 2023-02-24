@@ -91,8 +91,9 @@ const Contact = (props) => {
                     <textarea rows="6" placeholder="Message" value={state.message} name="message" onChange={handleChange}></textarea>
                   </Col> 
                   <Col size={12} sm={6} className="px-2 py-2">
-                    <SocialIcon url="https://www.linkedin.com/in/arahik-torosian/" />{" "}
-                    <SocialIcon url="https://github.com/Arahikt/" />{" "}
+                    <SocialIcon style={{ height: 25, width: 25 }} url="https://www.linkedin.com/in/arahik-torosian/" />{" "}
+                    <SocialIcon style={{ height: 25, width: 25 }} url="https://github.com/Arahikt/" />{" "}
+                    <SocialIcon style={{ height: 25, width: 25 }} url="https://discord.com/users/803712726412427325"  /> {" "}
                   </Col>
                   <Col size={12} sm={6} className="px-1">
                     <button disabled={(state.firstName && state.lastName && state.email && state.phone && state.message )=== ""  } className="form-button" type="submit"><span>{buttonText}</span></button>
