@@ -70,3 +70,11 @@ footer {
   margin-top: auto;
   padding: 8px;
 }
+@media (max-width: 767px) {                  
+  .header-button{
+     display: none;
+  }
+  .navbar-brand{
+    margin-left:30px;
+  }
+}

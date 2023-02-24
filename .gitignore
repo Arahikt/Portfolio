@@ -29,3 +29,6 @@ src/Assets/bootstrap.min-cyborg.css
 server.js
 src/Assets/Images/DSC_0528.jpg
 NodeMailer.js
+.firebaserc
+firebase.json
+.firebase/hosting.YnVpbGQ.cache

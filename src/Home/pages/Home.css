@@ -59,3 +59,21 @@
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }
+  @media (max-width: 768px) {
+    .banner img {
+      box-shadow: 0 14px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 25px ;
+      padding: 1px;
+      margin: 10px 50px 20px 10px;
+      max-width:250px;
+    }
+    .banner button {
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      margin:  1em auto 2em;
+      float: none;
+      letter-spacing: 0.8px;
+    }
+  }
+  
