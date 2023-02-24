@@ -1,6 +1,3 @@
-import logo from "./logo.svg";
-
-import "./App.css";
 import {
   BrowserRouter as Router,
   Route,
@@ -14,6 +11,8 @@ import Footer from "./shared/UIElement/Footer";
 import Header from "./shared/UIElement/Header";
 import Research from "./Home/pages/Research";
 import ProjectDemo from "./Home/components/ProjectDemo";
+
+import "./App.css";
 
 const App = () => {
   return (
