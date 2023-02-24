@@ -3,14 +3,13 @@ import { Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
     <header>
       <Navbar bg="black" variant="dark" collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand href="/">A T</Navbar.Brand>
+          <Navbar.Brand className="navbar-brand" href="/">A T</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -20,7 +19,7 @@ const Header = () => {
               <Nav.Link href="/contact">CONTACT</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Nav.Link href="/contact">
+          <Nav.Link className="header-button" href="/contact">
           <Button>Let's Connect</Button>
           </Nav.Link>
         </Container>

@@ -13,10 +13,13 @@ function Footer() {
           </Row>
           <Row>
             <Col>
-              <SocialIcon url="https://www.linkedin.com/in/arahik-torosian/" />{" "}
+              <SocialIcon style={{ height: 25, width: 25 }} url="https://www.linkedin.com/in/arahik-torosian/" />{" "}
             </Col>
             <Col>
-              <SocialIcon url="https://github.com/Arahikt/" />{" "}
+              <SocialIcon style={{ height: 25, width: 25 }} url="https://github.com/Arahikt/" />{" "}
+            </Col>
+            <Col>
+            <SocialIcon style={{ height: 25, width: 25 }} url="https://discord.com/users/803712726412427325"  /> 
             </Col>
           </Row>
         </Container>
