@@ -75,5 +75,18 @@
       float: none;
       letter-spacing: 0.8px;
     }
+    .banner h1{
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      line-height: 1;
+      margin-bottom: 20px;
+      display: block;
+    }
+    .banner span{
+      font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    }
   }
   
