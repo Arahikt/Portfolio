@@ -41,7 +41,7 @@ const Contact = (props) => {
     setButtonText("Sending");
     let response
     try {
-      response = await fetch("http://localhost:3001/send", {
+      response = await fetch(process.env.REACT_APP_BACKEND_URL + "/send", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
