@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Alert from "react-bootstrap/Alert";
 import Button from "react-bootstrap/Button";
 
-import pdfFile from "../../Assets/Research/Arahik_Torosian_thesis_2023_Final_.pdf";
+import pdfFile from "../../Assets/Research/Arahik_Torosian_thesis_2023_Final.pdf";
 
 import "./Research.css";
 
