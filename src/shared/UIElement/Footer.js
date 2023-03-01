@@ -9,7 +9,7 @@ function Footer() {
       <Navbar bg="white" variant="dark" collapseOnSelect>
         <Container>
           <Row>
-            <Col>Copyright &copy; {year} - Arahik Torosian &nbsp;</Col>
+            <Col className="copyright">Copyright &copy; {year} - Arahik Torosian &nbsp;</Col>
           </Row>
           <Row>
             <Col>
