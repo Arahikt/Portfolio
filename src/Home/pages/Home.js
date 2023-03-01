@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useNavigate } from "react-router-dom";
 
-import userImage from "../../Assets/Images/DSC_0528.jpg";
+import userImage from "../../Assets/Images/DSC_05288.jpg";
 
 import "./Home.css";
 
@@ -104,7 +104,7 @@ const Home = () => {
             <img
               className="home-user-image"
               alt="user"
-              width={"360px"}
+              width={"300px"}
               src={userImage}
             />
           </Col>
